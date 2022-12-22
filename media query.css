@@ -108,7 +108,7 @@
     display: none;
   }
   .sale-7 img{
-    top: 81rem;
+    top: 75rem;
     margin-left: 0rem;
     width: 100%;
   }
@@ -123,12 +123,12 @@
     bottom: -85rem;
   }
   #clothes{
-    margin-top: 8rem;
+    margin-top: 7rem !important;
     flex-direction: column;
     align-items: center;
   }
   #banner{
-    margin-top: 227rem;
+    margin-top: 212rem;
   }
   #image-gallery{
     height: 54vh;
@@ -144,14 +144,20 @@
   .winter{
     top: 0;
   }
+  .winter-link{
+    left: 1rem;
+  }
+  .winter-card-details{
+    height: 31rem;
+  }
   .end-container{
-    margin-top: 85rem !important;
+    margin-top: 78rem !important;
   }
   .testim{
     top: 23rem;
   }
   .footer{
-    top: 0rem !important;
+    top: 2rem !important;
   }
   .template-body{
     width: 20rem !important;
