@@ -107,77 +107,14 @@
   .sale-1, .sale-2, .sale-3, .sale-4, .sale-6{
     display: none;
   }
-  .sale-7 img{
-    top: 75rem;
-    margin-left: 0rem;
-    width: 100%;
-  }
   #general-card{
     
-    bottom: -1rem;
-  }
-}
-
-@media (max-width:380px) {
-  #winter-products{
-    bottom: -85rem;
-  }
-  #clothes{
-    margin-top: 7rem !important;
-    flex-direction: column;
-    align-items: center;
-  }
-  #banner{
-    margin-top: 212rem;
-  }
-  #image-gallery{
-    height: 54vh;
-    top: 1rem;
-  }
-  #image-gallery h1{
-    font-size: 3em;
-    text-align: center;
-  }
-  .gallery-img{
-    width: 100%;
-  }
-  .winter{
-    top: 0;
-  }
-  .winter-link{
-    left: 1rem;
-  }
-  .winter-card-details{
-    height: 31rem;
-  }
-  .end-container{
-    margin-top: 78rem !important;
-  }
-  .testim{
-    top: 23rem;
-  }
-  .footer{
-    top: 2rem !important;
-  }
-  .template-body{
-    width: 20rem !important;
-    bottom: 10rem;
-    left: 0rem;
-  }
-}
-
-
-@media (min-width:381px) and (max-width: 430px) {
-  #winter-products{
-    bottom: -28rem;
+    bottom: -4rem;
   }
   #clothes{
     margin-top: 8rem !important;
     flex-direction: column;
     align-items: center;
-  }
-  #banner{
-    margin-top: 158rem;
   }
   #image-gallery{
     height: 56vh;
@@ -203,11 +140,35 @@
     top: 23rem;
   }
   .footer{
-    top: 0rem !important;
+    top: 2rem !important;
   }
   .template-body{
     width: 20rem !important;
     bottom: 10rem;
     left: 0rem;
+  }
+  .sale-7 img{
+    top: 84rem !important;
+    margin-left: 0rem;
+    width: 100%;
+  }
+}
+
+@media (max-width:380px) {
+  #winter-products{
+    bottom: -88rem !important;
+  }
+  #banner{
+    margin-top: 218rem !important;
+  }
+} 
+
+
+@media (min-width:381px) and (max-width: 430px) {
+  #winter-products{
+    bottom: -30rem !important;
+  }
+  #banner{
+    margin-top: 158rem !important;
   }
 }
